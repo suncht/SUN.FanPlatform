@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout style="toolbar" skin="silver">
+  <header>
+    <menus>
+      <menu title="文件">
+        <menuItem title="新增"></menuItem>
+        <menuItem title="删除"></menuItem>
+      </menu>
+    </menus>
+    <toolbars>
+      <toolbar>
+        <toolItem title="新增"></toolItem>
+        <toolItem title="新增"></toolItem>
+      </toolbar>
+      <toolbar>
+        <toolItem></toolItem>
+        <toolItem></toolItem>
+      </toolbar>
+    </toolbars>
+  </header>
+  <body>
+
+  </body>
+</layout>

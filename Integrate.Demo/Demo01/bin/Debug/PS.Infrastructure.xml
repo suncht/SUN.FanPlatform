@@ -1,0 +1,474 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PS.Infrastructure</name>
+    </assembly>
+    <members>
+        <member name="T:PS.Infrastructure.InvokeMethod.InvokeMethodAssembly">
+            <summary>
+            回调Assembly,对应InvokeMethodService.xml,系统内部使用
+            </summary>
+        </member>
+        <member name="P:PS.Infrastructure.InvokeMethod.InvokeMethodAssembly.AssemblyName">
+            <summary>
+            配置的程序级
+            </summary>
+        </member>
+        <member name="P:PS.Infrastructure.InvokeMethod.InvokeMethodAssembly.TypeName">
+            <summary>
+            配置的插件面板名称或Dll中类的全名
+            </summary>
+        </member>
+        <member name="P:PS.Infrastructure.InvokeMethod.InvokeMethodAssembly.Method">
+            <summary>
+            配置的方法名
+            </summary>
+        </member>
+        <member name="P:PS.Infrastructure.InvokeMethod.InvokeMethodAssembly.IsPlugin">
+            <summary>
+            是否是插件
+            </summary>
+        </member>
+        <member name="P:PS.Infrastructure.InvokeMethod.InvokeMethodAssembly.IsCached">
+            <summary>
+            反射对象是否缓存
+            </summary>
+        </member>
+        <member name="T:PS.Infrastructure.InvokeMethod.InvokeMethodService">
+            <summary>
+            方法调用服务实现类
+            </summary>
+        </member>
+        <member name="T:PS.Infrastructure.IInvokeMethod">
+            <summary>
+            方法调用服务接口
+            </summary>
+        </member>
+        <member name="M:PS.Infrastructure.IInvokeMethod.Invoke(System.String,System.Object[])">
+            <summary>
+            调用方法，方法配置在config\base\InvokeMethodService.xml中
+            </summary>
+            <param name="name">类型名称和方法名通过_拼接在一起的字符串</param>
+            <param name="param">调用方法的输入参数</param>
+            <returns>调用方法的返回值</returns>
+        </member>
+        <member name="M:PS.Infrastructure.IInvokeMethod.Invoke(System.String,System.String,System.Object[])">
+            <summary>
+            
+            </summary>
+            <param name="typeName">配置的type元素的Name属性</param>
+            <param name="methodName">调用的方法名</param>
+            <param name="param">调用方法的输入参数</param>
+            <returns>调用方法的返回值</returns>
+        </member>
+        <member name="F:PS.Infrastructure.InvokeMethod.InvokeMethodService.callBackAssemblyCache">
+            <summary>
+            服务缓存
+            </summary>
+        </member>
+        <member name="M:PS.Infrastructure.InvokeMethod.InvokeMethodService.Invoke(System.String,System.Object[])">
+            <summary>
+            调用方法，方法配置在config\base\InvokeMethodService.xml中
+            </summary>
+            <param name="name">类型名称和方法名通过_拼接在一起的字符串</param>
+            <param name="param">调用方法的输入参数</param>
+            <returns>调用方法的返回值</returns>
+        </member>
+        <member name="M:PS.Infrastructure.InvokeMethod.InvokeMethodService.Invoke(System.String,System.String,System.Object[])">
+            <summary>
+            
+            </summary>
+            <param name="typeName">配置的type元素的Name属性</param>
+            <param name="methodName">调用的方法名</param>
+            <param name="param">调用方法的输入参数</param>
+            <returns>调用方法的返回值</returns>
+        </member>
+        <member name="P:PS.Infrastructure.InvokeMethod.InvokeMethodService.GetCallBackAssemblyCache">
+            <summary>
+            获取方法调用内存表示
+            </summary>
+        </member>
+        <member name="T:PS.Infrastructure.ControlAddress.ControlAddressService">
+            <summary>
+            控件寻址服务
+            </summary>
+        </member>
+        <member name="M:PS.Infrastructure.ControlAddress.IControlAddress.Register(System.String,System.ComponentModel.Component,PS.Infrastructure.ControlAddress.ControlTypeEnum)">
+            <summary>
+            注册控件
+            </summary>
+        </member>
+        <member name="M:PS.Infrastructure.ControlAddress.IControlAddress.Unregister(System.String,PS.Infrastructure.ControlAddress.ControlTypeEnum)">
+            <summary>
+            取消注册控件
+            </summary>
+        </member>
+        <member name="M:PS.Infrastructure.ControlAddress.IControlAddress.GetBarItem(System.String)">
+            <summary>
+            获取Ribbon/Toolbar上的控件
+            </summary>
+            <param name="itemName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Infrastructure.ControlAddress.IControlAddress.GetPanel(System.String)">
+            <summary>
+            获取指定面板
+            </summary>
+            <param name="panelName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Infrastructure.ControlAddress.IControlAddress.GetUserControlInPanel(System.String)">
+            <summary>
+            获取指定面板中的控件
+            </summary>
+            <param name="panelName"></param>
+            <returns></returns>
+        </member>
+        <member name="F:PS.Infrastructure.ControlAddress.ControlAddressService.panelHookHolder">
+            <summary>
+            面板句柄持有者
+            </summary>
+        </member>
+        <member name="F:PS.Infrastructure.ControlAddress.ControlAddressService.userControlHookHolder">
+            <summary>
+            面板上用户控件句柄持有者
+            </summary>
+        </member>
+        <member name="F:PS.Infrastructure.ControlAddress.ControlAddressService.barItemHookHolder">
+            <summary>
+            Ribbon/Toolbar/Menu上各个控件句柄持有者
+            </summary>
+        </member>
+        <member name="M:PS.Infrastructure.ControlAddress.ControlAddressService.Register(System.String,System.ComponentModel.Component,PS.Infrastructure.ControlAddress.ControlTypeEnum)">
+            <summary>
+            注册控件
+            </summary>
+            <param name="controlName"></param>
+            <param name="controlType"></param>
+        </member>
+        <member name="T:PS.Infrastructure.ControlAddress.ControlTypeEnum">
+            <summary>
+            控件类型
+            </summary>
+        </member>
+        <member name="T:PS.Infrastructure.DataExchange.DataExchangeService">
+            <summary>
+            全局变量管理的默认实现
+            </summary>
+        </member>
+        <member name="T:PS.Infrastructure.DataExchange.IDataExchange">
+            <summary>
+            全局变量管理接口
+            </summary>
+        </member>
+        <member name="M:PS.Infrastructure.DataExchange.IDataExchange.LoadFromFile(System.String)">
+            <summary>
+            从指定文件载入全局变量
+            </summary>
+            <param name="filepath">文件全路径</param>
+        </member>
+        <member name="M:PS.Infrastructure.DataExchange.IDataExchange.SaveToFile(System.String)">
+            <summary>
+            从当前全局变量序列化到文件中
+            </summary>
+            <param name="filepath">文件路径</param>
+        </member>
+        <member name="M:PS.Infrastructure.DataExchange.IDataExchange.Remove(System.String)">
+            <summary>
+            删除指定的全局变量
+            </summary>
+            <param name="name">变量名</param>
+        </member>
+        <member name="M:PS.Infrastructure.DataExchange.IDataExchange.ContainsKey(System.String)">
+            <summary>
+            判断缓存的全局数据是否包含指定的键
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="P:PS.Infrastructure.DataExchange.IDataExchange.Item(System.String)">
+            <summary>
+            获取或设置全局变量
+            </summary>
+            <param name="name">全局变量字符串索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Infrastructure.DataExchange.DataExchangeService.#ctor">
+            <summary>
+            新建
+            </summary>
+        </member>
+        <member name="M:PS.Infrastructure.DataExchange.DataExchangeService.LoadFromFile(System.String)">
+            <summary>
+            从指定文件载入全局变量
+            </summary>
+            <param name="filepath">文件全路径</param>
+        </member>
+        <member name="M:PS.Infrastructure.DataExchange.DataExchangeService.SaveToFile(System.String)">
+            <summary>
+            从当前全局变量序列化到文件中
+            </summary>
+            <param name="filepath">文件路径</param>
+        </member>
+        <member name="M:PS.Infrastructure.DataExchange.DataExchangeService.Remove(System.String)">
+            <summary>
+            删除指定的全局变量
+            </summary>
+            <param name="name">变量名</param>
+        </member>
+        <member name="P:PS.Infrastructure.DataExchange.DataExchangeService.Item(System.String)">
+            <summary>
+            获取或设置全局变量
+            </summary>
+            <param name="name">全局变量字符串索引</param>
+            <returns></returns>
+        </member>
+        <member name="T:PS.Infrastructure.PropertyAccess.PropertyAccessService">
+            <summary>
+             数据访问服务实现类
+            </summary>
+        </member>
+        <member name="T:PS.Infrastructure.PropertyAccess.IPropertyAccess">
+            <summary>
+            数据访问服务接口
+            </summary>
+        </member>
+        <member name="M:PS.Infrastructure.PropertyAccess.IPropertyAccess.GetValue(System.String)">
+            <summary>
+            获取插件指定名称的属性值
+            </summary>
+            <param name="key">注册的属性索引值</param>
+            <returns>属性值</returns>
+        </member>
+        <member name="M:PS.Infrastructure.PropertyAccess.IPropertyAccess.SetValue(System.String,System.Object)">
+            <summary>
+            设置插件指定名称的属性值
+            </summary>
+            <param name="key">注册的属性索引值</param>
+            <param name="value">要设置的值</param>
+        </member>
+        <member name="M:PS.Infrastructure.PropertyAccess.IPropertyAccess.register(PS.Infrastructure.PropertyAccess.ISupportPropertyAccess)">
+            <summary>
+            向服务注册对象,注册后即可访问指定对象的指定属性
+            </summary>
+            <param name="sda">实现指定接口的对象</param>
+        </member>
+        <member name="M:PS.Infrastructure.PropertyAccess.IPropertyAccess.unregister(PS.Infrastructure.PropertyAccess.ISupportPropertyAccess)">
+            <summary>
+            向服务反注册对象,反注册后指定对象的指定属性不可访问
+            </summary>
+            <param name="sda">实现指定接口的对象</param>
+        </member>
+        <member name="M:PS.Infrastructure.PropertyAccess.PropertyAccessService.GetValue(System.String)">
+            <summary>
+            获取插件指定名称的属性值
+            </summary>
+            <param name="key">注册的属性索引值</param>
+            <returns>属性值</returns>
+        </member>
+        <member name="M:PS.Infrastructure.PropertyAccess.PropertyAccessService.SetValue(System.String,System.Object)">
+            <summary>
+            设置插件指定名称的属性值
+            </summary>
+            <param name="key">注册的属性索引值</param>
+            <param name="value">要设置的值</param>
+        </member>
+        <member name="M:PS.Infrastructure.PropertyAccess.PropertyAccessService.register(PS.Infrastructure.PropertyAccess.ISupportPropertyAccess)">
+            <summary>
+            向服务注册对象,注册后即可访问指定对象的指定属性
+            </summary>
+            <param name="sda">实现指定接口的对象</param>
+        </member>
+        <member name="M:PS.Infrastructure.PropertyAccess.PropertyAccessService.unregister(PS.Infrastructure.PropertyAccess.ISupportPropertyAccess)">
+            <summary>
+            向服务反注册对象,反注册后指定对象的指定属性不可访问
+            </summary>
+            <param name="sda">实现指定接口的对象</param>
+        </member>
+        <member name="T:PS.Infrastructure.PropertyAccess.ISupportPropertyAccess">
+            <summary>
+            数据访问对象必须实现此接口,并向服务注册
+            </summary>
+        </member>
+        <member name="P:PS.Infrastructure.PropertyAccess.ISupportPropertyAccess.Name">
+            <summary>
+            当前对象的字符串名描述，作为全局访问属性的前缀
+            </summary>
+        </member>
+        <member name="P:PS.Infrastructure.PropertyAccess.ISupportPropertyAccess.AllowAccessPropertiesDic">
+            <summary>
+            key:属性访问键，与[Name]用_相连作为完整访问键
+            value:真实要访问的属性名
+            </summary>
+        </member>
+        <member name="T:PS.Infrastructure.IPeraUiViewPlugin">
+            <summary>
+            控件UI的通用接口
+            </summary>
+        </member>
+        <member name="F:PS.Infrastructure.PeraUserControl.ownerPanel">
+            <summary>
+            控件所在的面板
+            </summary>
+        </member>
+        <member name="M:PS.Infrastructure.PeraUserControl.GetImage16Index(System.String)">
+            <summary>
+            获取Image（16*16）的索引号
+            </summary>
+            <param name="imageName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Infrastructure.PeraUserControl.GetImage32Index(System.String)">
+            <summary>
+            获取Image（32*32）的索引号
+            </summary>
+            <param name="imageName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Infrastructure.PeraUserControl.GetImage16Name(System.Int32)">
+            <summary>
+            获取Image（16*16）的文件名
+            </summary>
+            <param name="imageIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Infrastructure.PeraUserControl.GetImage32Name(System.Int32)">
+            <summary>
+            获取Image（32*32）的文件名
+            </summary>
+            <param name="imageIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="P:PS.Infrastructure.PeraUserControl.OwnerPanel">
+            <summary>
+            控件所在的面板
+            </summary>
+        </member>
+        <member name="P:PS.Infrastructure.PeraUserControl.Image16List">
+            <summary>
+            Image（16*16）列表
+            </summary>
+        </member>
+        <member name="P:PS.Infrastructure.PeraUserControl.Image32List">
+            <summary>
+            Image（32*32）列表
+            </summary>
+        </member>
+        <member name="T:PS.Infrastructure.ServiceContainer">
+            <summary>
+            服务容器
+            </summary>
+        </member>
+        <member name="M:PS.Infrastructure.ServiceContainer.CreateInstance">
+            <summary>
+            获取服务容器实例
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:PS.Infrastructure.SystemParams.GlobalParamService">
+            <summary>
+            系统全局参数服务（属于系统级别服务）
+            </summary>
+        </member>
+        <member name="M:PS.Infrastructure.SystemParams.GlobalParamService.SaveToConfig">
+            <summary>
+            写入AppConfig文件中
+            </summary>
+        </member>
+        <member name="M:PS.Infrastructure.SystemParams.GlobalParamService.LoadCustomizeImageCollection(System.Int32)">
+            <summary>
+            加载自定义图片集
+            </summary>
+        </member>
+        <member name="M:PS.Infrastructure.SystemParams.GlobalParamService.GetCustomizeImageData(System.String,System.Int32)">
+            <summary>
+            获取自定义图片的数据（文件名称、索引号、Image对象）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Infrastructure.SystemParams.GlobalParamService.LoadFromIni">
+            <summary>
+            加载全局系统配置文件setting.ini
+            </summary>
+        </member>
+        <member name="M:PS.Infrastructure.SystemParams.GlobalParamService.LoadSystemSection(PS.Utility.Utils.IniFileHelper)">
+            <summary>
+            系统程序设置
+            </summary>
+            <param name="iniFileHelper"></param>
+        </member>
+        <member name="M:PS.Infrastructure.SystemParams.GlobalParamService.LoadLayoutSection(PS.Utility.Utils.IniFileHelper)">
+            <summary>
+            布局设置
+            </summary>
+            <param name="iniFileHelper"></param>
+        </member>
+        <member name="M:PS.Infrastructure.SystemParams.GlobalParamService.WriteToIni(System.String,System.String,System.String)">
+            <summary>
+            写入数据到INI文件
+            </summary>
+            <param name="section"></param>
+            <param name="key"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:PS.Infrastructure.SystemParams.GlobalParamService.WriteToIni">
+            <summary>
+            将全局数据写入INI文件中
+            </summary>
+        </member>
+        <member name="T:PS.Infrastructure.SystemParams.SystemSetting">
+            <summary>
+            系统设置
+            </summary>
+        </member>
+        <member name="F:PS.Infrastructure.SystemParams.SystemSetting.LayoutSettingParam">
+            <summary>
+            布局设置参数
+            </summary>
+        </member>
+        <member name="F:PS.Infrastructure.SystemParams.SystemSetting.ApplicationSettingParam">
+            <summary>
+            系统程序设置参数
+            </summary>
+        </member>
+        <member name="F:PS.Infrastructure.SystemParams.SystemSetting.Image16CollectionList">
+            <summary>
+            图标集合16*16
+            tuple第一个参数是：图标文件名
+            tuple第二个参数是：序列号 从0开始
+            </summary>
+        </member>
+        <member name="F:PS.Infrastructure.SystemParams.SystemSetting.Image32CollectionList">
+            <summary>
+            图标集合32*32
+            tuple第一个参数是：图标文件名
+            tuple第二个参数是：序列号 从0开始
+            </summary>
+        </member>
+        <member name="T:PS.Infrastructure.SystemParams.ApplicationSetting">
+            <summary>
+            系统程序设置
+            </summary>
+        </member>
+        <member name="T:PS.Infrastructure.SystemParams.LayoutSetting">
+            <summary>
+            布局设置
+            </summary>
+        </member>
+        <member name="F:PS.Infrastructure.SystemParams.LayoutSetting.LayoutName">
+            <summary>
+            当前布局名称
+            </summary>
+        </member>
+        <member name="F:PS.Infrastructure.SystemParams.LayoutSetting.EnabeSave">
+            <summary>
+            是否启用自动保存布局（下次打开时，可恢复到上次布局）
+            </summary>
+        </member>
+        <member name="F:PS.Infrastructure.SystemParams.LayoutSetting.SkinStyle">
+            <summary>
+            皮肤样式
+            </summary>
+        </member>
+    </members>
+</doc>

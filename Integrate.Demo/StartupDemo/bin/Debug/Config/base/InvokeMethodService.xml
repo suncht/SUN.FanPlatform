@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Assemblys>
+  <Assembly Name="PeraForm.Test01.dll">
+    <Type Name="PeraForm.Test01.TestAlgorithm" IsPlugin="false" IsCached="true">
+      <Method>Minus</Method>
+      <Method>Add</Method>
+    </Type>
+    <Type Name="PeraForm.Test01.TestPorject" IsPlugin="false" IsCached="true">
+      <Method>Open</Method>
+      <Method>Save</Method>
+      <Method>Exit</Method>
+    </Type>
+  </Assembly>
+  <Assembly Name="SF.Component.WCTreeWrap.dll">
+    <Type Name="panel11" IsPlugin="true" IsCached="true">
+      <Method>LoadFromFile</Method>
+      <Method>SaveToFile</Method>
+      <Method>TestCall</Method>
+      <Method>TestCall01</Method>
+      <Method>GetCurrentNodeProperty</Method>
+      <Method>TestTreeCall</Method>
+      <Method>TestGlobalVariant</Method>
+      <Method>TestSaveProperty</Method>
+      <Method>TestGetAndSetNodeState</Method>
+      <Method>CheckInteger</Method>
+      <Method>CheckStringLength</Method>
+    </Type>
+  </Assembly>
+  <Assembly Name="SF.Component.PropertyGridWrap.dll">
+    <Type Name="panel12" IsPlugin="true" IsCached="true">
+      <Method>LoadFromFile</Method>
+      <Method>SetSelectNodeByName</Method>
+      <Method>SaveToFile</Method>
+      <Method>SetNodeProperty</Method>
+    </Type>
+  </Assembly>
+  <Assembly Name="SF.Component.StateTip.dll">
+    <Type Name="panel4" IsPlugin="true" IsCached="true">
+      <Method>SendMessage</Method>
+      <Method>SaveToFile</Method>
+    </Type>
+  </Assembly>
+</Assemblys>

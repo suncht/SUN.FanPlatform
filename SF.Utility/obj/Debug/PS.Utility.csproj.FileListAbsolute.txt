@@ -1,0 +1,10 @@
+D:\开发\CSharpWorkspaces\PERA.SimClientPlatform\PS.Utility\bin\Debug\PS.Utility.XML
+D:\开发\CSharpWorkspaces\PERA.SimClientPlatform\PS.Utility\bin\Debug\PS.Utility.dll
+D:\开发\CSharpWorkspaces\PERA.SimClientPlatform\PS.Utility\bin\Debug\PS.Utility.pdb
+D:\开发\CSharpWorkspaces\PERA.SimClientPlatform\PS.Utility\bin\Debug\log4net.dll
+D:\开发\CSharpWorkspaces\PERA.SimClientPlatform\PS.Utility\bin\Debug\log4net.xml
+D:\开发\CSharpWorkspaces\PERA.SimClientPlatform\PS.Utility\obj\Debug\PS.Utility.Dialogs.PeraOkAndCancelControl.resources
+D:\开发\CSharpWorkspaces\PERA.SimClientPlatform\PS.Utility\obj\Debug\PS.Utility.Dialogs.PeraProgressIndicator.resources
+D:\开发\CSharpWorkspaces\PERA.SimClientPlatform\PS.Utility\obj\Debug\PS.Utility.csproj.GenerateResource.Cache
+D:\开发\CSharpWorkspaces\PERA.SimClientPlatform\PS.Utility\obj\Debug\PS.Utility.dll
+D:\开发\CSharpWorkspaces\PERA.SimClientPlatform\PS.Utility\obj\Debug\PS.Utility.pdb

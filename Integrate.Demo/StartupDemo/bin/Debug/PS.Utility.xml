@@ -1,0 +1,963 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PS.Utility</name>
+    </assembly>
+    <members>
+        <member name="F:PS.Utility.Dialogs.MsgType.OK">
+            <summary>  
+            提示  
+            </summary>  
+        </member>
+        <member name="F:PS.Utility.Dialogs.MsgType.Warning">
+            <summary>  
+            警告  
+            </summary>  
+        </member>
+        <member name="F:PS.Utility.Dialogs.MsgType.Question">
+            <summary>  
+            询问  
+            </summary>  
+        </member>
+        <member name="F:PS.Utility.Dialogs.MsgType.Exception">
+            <summary>  
+            错误  
+            </summary>  
+        </member>
+        <member name="F:PS.Utility.Dialogs.MsgType.YesNoCancel">
+            <summary>  
+            是/否/取消  
+            </summary>  
+        </member>
+        <member name="F:PS.Utility.Dialogs.MsgType.YesNo">
+            <summary>  
+            是/否  
+            </summary>  
+        </member>
+        <member name="M:PS.Utility.Dialogs.PeraMessageBox.ShowMsg(System.String,PS.Utility.Dialogs.MsgType)">
+            <summary>  
+            显示消息  
+            </summary>  
+            <param name="msg">消息</param>  
+            <param name="ie">消息类型</param>  
+            <returns>需要用户作出选择时，返回YES or NO,否则返回，ok，cancel等</returns>  
+        </member>
+        <member name="M:PS.Utility.Dialogs.PeraMessageBox.ShowMsg(System.String,System.String,PS.Utility.Dialogs.MsgType)">
+            <summary>  
+            显示消息  
+            </summary>  
+            <param name="msg">消息</param>  
+            <param name="caption">标题 系统会自动加上一些信息</param>  
+            <param name="msgType">消息类型</param>  
+            <returns>需要用户作出选择时，返回YES or NO,否则返回，ok，cancel等</returns>  
+        </member>
+        <member name="M:PS.Utility.Dialogs.PeraMessageBox.ShowMsgBox(System.String,System.String,PS.Utility.Dialogs.MsgType)">
+            <summary>  
+            显示消息  
+            </summary>  
+            <param name="msg">消息</param>  
+            <param name="catpion">标题</param>  
+            <param name="msgType">消息类型</param>  
+            <returns>需要用户作出选择时，返回YES or NO,否则返回，ok，cancel等</returns>  
+        </member>
+        <member name="M:PS.Utility.Dialogs.PeraMessageBox.ShowMsg(System.Windows.Forms.IWin32Window,System.String,PS.Utility.Dialogs.MsgType)">
+            <summary>  
+            显示消息  
+            </summary>  
+            <param name="msg">消息</param>  
+            <param name="ie">消息类型</param>  
+            <returns>需要用户作出选择时，返回YES or NO,否则返回，ok，cancel等</returns>  
+        </member>
+        <member name="F:PS.Utility.Dialogs.PeraOkAndCancelControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PS.Utility.Dialogs.PeraOkAndCancelControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PS.Utility.Dialogs.PeraOkAndCancelControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:PS.Utility.Dialogs.PeraProgressIndicator.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PS.Utility.Dialogs.PeraProgressIndicator.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PS.Utility.Dialogs.PeraProgressIndicator.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:PS.Utility.Utils.AppConfigHelper.GetConnectionStringsConfig(System.String)">
+            <summary> 
+            依据连接串名字connectionName返回数据连接字符串  
+            </summary> 
+            <param name="connectionName"></param> 
+            <returns></returns> 
+        </member>
+        <member name="M:PS.Utility.Utils.AppConfigHelper.UpdateConnectionStringsConfig(System.String,System.String,System.String)">
+            <summary> 
+            更新连接字符串  
+            </summary> 
+            <param name="newName">连接字符串名称</param> 
+            <param name="newConString">连接字符串内容</param> 
+            <param name="newProviderName">数据提供程序名称</param> 
+        </member>
+        <member name="M:PS.Utility.Utils.AppConfigHelper.GetAppConfig(System.String)">
+            <summary> 
+            返回＊.exe.config文件中appSettings配置节的value项  
+            </summary> 
+            <param name="strKey"></param> 
+            <returns></returns> 
+        </member>
+        <member name="M:PS.Utility.Utils.AppConfigHelper.UpdateAppConfig(System.String,System.String)">
+            <summary>  
+            在＊.exe.config文件中appSettings配置节增加一对键、值对  
+            </summary>  
+            <param name="newKey"></param>  
+            <param name="newValue"></param>  
+        </member>
+        <member name="T:PS.Utility.Utils.AssemblyHelper">
+            <summary>
+            动态加载程序集的帮助类
+            </summary>
+        </member>
+        <member name="F:PS.Utility.Utils.AssemblyHelper._assembly_cache">
+            <summary>
+            程序集缓存
+            </summary>
+        </member>
+        <member name="F:PS.Utility.Utils.AssemblyHelper._object_instance_cache">
+            <summary>
+            对象实例缓存
+            </summary>
+        </member>
+        <member name="M:PS.Utility.Utils.AssemblyHelper.GetInstanceFromAssembly(System.String,System.String,System.Boolean)">
+            <summary>
+            从程序集生成对象实例
+            </summary>
+            <param name="assemblyName">程序集</param>
+            <param name="typeName">程序集的类型，dll还是exe</param>
+            <param name="isShareInstance">是否要共享实例对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.AssemblyHelper.RegisterControlEvent(System.ComponentModel.Component,System.String,System.Object,System.Reflection.MethodInfo)">
+            <summary>
+            给控件注册事件
+            </summary>
+            <param name="ctrl">要注册事件的控件</param>
+            <param name="eventName">要注册事件的控件的事件名称</param>
+            <param name="instance"></param>
+            <param name="method">事件方法</param>
+        </member>
+        <member name="T:PS.Utility.Utils.Base64DEncrypt">
+            <summary>
+            Base64加解密帮助类
+            </summary>
+        </member>
+        <member name="M:PS.Utility.Utils.Base64DEncrypt.EncodeBase64(System.String)">
+            <summary>
+            Base64加密
+            </summary>
+            <param name="text">要加密的字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.Base64DEncrypt.DecodeBase64(System.String)">
+            <summary>
+            Base64解密
+            </summary>
+            <param name="text">要解密的字符串</param>
+        </member>
+        <member name="T:PS.Utility.Utils.ChineseCalHelper">
+            <summary>
+            中国日历
+            </summary>
+        </member>
+        <member name="F:PS.Utility.Utils.ChineseCalHelper.LunarDateArray">
+             <summary>
+             来源于网上的农历数据
+             </summary>
+             <remarks>
+             数据结构如下，共使用17位数据
+             第17位：表示闰月天数，0表示29天   1表示30天
+             第16位-第5位（共12位）表示12个月，其中第16位表示第一月，如果该月为30天则为1，29天为0
+             第4位-第1位（共4位）表示闰月是哪个月，如果当年没有闰月，则置0
+            </remarks>
+        </member>
+        <member name="M:PS.Utility.Utils.ChineseCalHelper.#ctor(System.DateTime)">
+            <summary>
+            用一个标准的公历日期来初使化
+            </summary>
+        </member>
+        <member name="M:PS.Utility.Utils.ChineseCalHelper.#ctor(System.Int32,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            用农历的日期来初使化
+            </summary>
+            <param name="cy">农历年</param>
+            <param name="cm">农历月</param>
+            <param name="cd">农历日</param>
+            <param name="LeapFlag">闰月标志</param>
+        </member>
+        <member name="M:PS.Utility.Utils.ChineseCalHelper.GetChineseMonthDays(System.Int32,System.Int32)">
+            <summary>
+            //传回农历y年m月的总天数
+            </summary>
+        </member>
+        <member name="M:PS.Utility.Utils.ChineseCalHelper.GetChineseLeapMonth(System.Int32)">
+            <summary>
+            传回农历 y年闰哪个月 1-12 , 没闰传回 0
+            </summary>
+        </member>
+        <member name="M:PS.Utility.Utils.ChineseCalHelper.GetChineseLeapMonthDays(System.Int32)">
+            <summary>
+            传回农历y年闰月的天数
+            </summary>
+        </member>
+        <member name="M:PS.Utility.Utils.ChineseCalHelper.GetChineseYearDays(System.Int32)">
+            <summary>
+            取农历年一年的天数
+            </summary>
+        </member>
+        <member name="M:PS.Utility.Utils.ChineseCalHelper.GetChineseHour(System.DateTime)">
+            <summary>
+            获得当前时间的时辰
+            </summary> 
+        </member>
+        <member name="M:PS.Utility.Utils.ChineseCalHelper.CheckDateLimit(System.DateTime)">
+            <summary>
+            检查公历日期是否符合要求
+            </summary>
+        </member>
+        <member name="M:PS.Utility.Utils.ChineseCalHelper.CheckChineseDateLimit(System.Int32,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            检查农历日期是否合理
+            </summary>
+        </member>
+        <member name="M:PS.Utility.Utils.ChineseCalHelper.ConvertNumToChineseNum(System.Char)">
+            <summary>
+            将0-9转成汉字形式
+            </summary>
+        </member>
+        <member name="M:PS.Utility.Utils.ChineseCalHelper.BitTest32(System.Int32,System.Int32)">
+            <summary>
+            测试某位是否为真
+            </summary>
+        </member>
+        <member name="M:PS.Utility.Utils.ChineseCalHelper.ConvertDayOfWeek(System.DayOfWeek)">
+            <summary>
+            将星期几转成数字表示
+            </summary>
+        </member>
+        <member name="M:PS.Utility.Utils.ChineseCalHelper.CompareWeekDayHoliday(System.DateTime,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            比较当天是不是指定的第周几
+            </summary>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.newCalendarHoliday">
+            <summary>
+            计算中国农历节日
+            </summary>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.WeekDayHoliday">
+            <summary>
+            按某月第几周第几日计算的节日
+            </summary>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.DateHoliday">
+            <summary>
+            按公历日计算的节日
+            </summary>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.Date">
+            <summary>
+            取对应的公历日期
+            </summary>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.WeekDay">
+            <summary>
+            取星期几
+            </summary>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.WeekDayStr">
+            <summary>
+            周几的字符
+            </summary>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.DateString">
+            <summary>
+            公历日期中文表示法 如一九九七年七月一日
+            </summary>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.IsLeapYear">
+            <summary>
+            当前是否公历闰年
+            </summary>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.ChineseConstellation">
+            <summary>
+            28星宿计算
+            </summary>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.ChineseHour">
+            <summary>
+            时辰
+            </summary>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.IsChineseLeapMonth">
+            <summary>
+            是否闰月
+            </summary>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.IsChineseLeapYear">
+            <summary>
+            当年是否有闰月
+            </summary>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.ChineseDay">
+            <summary>
+            农历日
+            </summary>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.ChineseDayString">
+            <summary>
+            农历日中文表示
+            </summary>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.ChineseMonth">
+            <summary>
+            农历的月份
+            </summary>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.ChineseMonthString">
+            <summary>
+            农历月份字符串
+            </summary>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.ChineseYear">
+            <summary>
+            取农历年份
+            </summary>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.ChineseYearString">
+            <summary>
+            取农历年字符串如，一九九七年
+            </summary>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.ChineseDateString">
+            <summary>
+            取农历日期表示法：农历一九九七年正月初五
+            </summary>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.ChineseTwentyFourDay">
+            <summary>
+            定气法计算二十四节气,二十四节气是按地球公转来计算的，并非是阴历计算的
+            </summary>
+            <remarks>
+            节气的定法有两种。古代历法采用的称为"恒气"，即按时间把一年等分为24份，
+            每一节气平均得15天有余，所以又称"平气"。现代农历采用的称为"定气"，即
+            按地球在轨道上的位置为标准，一周360°，两节气之间相隔15°。由于冬至时地
+            球位于近日点附近，运动速度较快，因而太阳在黄道上移动15°的时间不到15天。
+            夏至前后的情况正好相反，太阳在黄道上移动较慢，一个节气达16天之多。采用
+            定气时可以保证春、秋两分必然在昼夜平分的那两天。
+            </remarks>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.Constellation">
+            <summary>
+            计算指定日期的星座序号 
+            </summary>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.Animal">
+            <summary>
+            计算属相的索引，注意虽然属相是以农历年来区别的，但是目前在实际使用中是按公历来计算的
+            鼠年为1,其它类推
+            </summary>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.AnimalString">
+            <summary>
+            取属相字符串
+            </summary>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.GanZhiYearString">
+            <summary>
+            取农历年的干支表示法如 乙丑年
+            </summary>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.GanZhiMonthString">
+            <summary>
+            取干支的月表示字符串，注意农历的闰月不记干支
+            </summary>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.GanZhiDayString">
+            <summary>
+            取干支日表示法
+            </summary>
+        </member>
+        <member name="P:PS.Utility.Utils.ChineseCalHelper.GanZhiDateString">
+            <summary>
+            取当前日期的干支表示法如 甲子年乙丑月丙庚日
+            </summary>
+        </member>
+        <member name="T:PS.Utility.Utils.ChineseCalHelper.SolarHolidayStruct">
+            <summary>
+            阳历
+            </summary>
+        </member>
+        <member name="T:PS.Utility.Utils.ChineseCalHelper.LunarHolidayStruct">
+            <summary>
+            农历
+            </summary>
+        </member>
+        <member name="T:PS.Utility.Utils.ConvertHelper">
+            <summary>
+            处理数据类型转换，数制转换、编码转换相关的类
+            </summary>    
+        </member>
+        <member name="M:PS.Utility.Utils.ConvertHelper.RepairZero(System.String,System.Int32)">
+            <summary>
+            指定字符串的固定长度，如果字符串小于固定长度，
+            则在字符串的前面补足零，可设置的固定长度最大为9位
+            </summary>
+            <param name="text">原始字符串</param>
+            <param name="limitedLength">字符串的固定长度</param>
+        </member>
+        <member name="M:PS.Utility.Utils.ConvertHelper.ConvertBase(System.String,System.Int32,System.Int32)">
+            <summary>
+            实现各进制数间的转换。ConvertBase("15",10,16)表示将十进制数15转换为16进制的数。
+            </summary>
+            <param name="value">要转换的值,即原值</param>
+            <param name="from">原值的进制,只能是2,8,10,16四个值。</param>
+            <param name="to">要转换到的目标进制，只能是2,8,10,16四个值。</param>
+        </member>
+        <member name="M:PS.Utility.Utils.ConvertHelper.StringToBytes(System.String,System.Text.Encoding)">
+            <summary>
+            使用指定字符集将string转换成byte[]
+            </summary>
+            <param name="text">要转换的字符串</param>
+            <param name="encoding">字符编码</param>
+        </member>
+        <member name="M:PS.Utility.Utils.ConvertHelper.BytesToString(System.Byte[],System.Text.Encoding)">
+            <summary>
+            使用指定字符集将byte[]转换成string
+            </summary>
+            <param name="bytes">要转换的字节数组</param>
+            <param name="encoding">字符编码</param>
+        </member>
+        <member name="M:PS.Utility.Utils.ConvertHelper.BytesToInt32(System.Byte[])">
+            <summary>
+            将byte[]转换成int
+            </summary>
+            <param name="data">需要转换成整数的byte数组</param>
+        </member>
+        <member name="T:PS.Utility.Utils.FileDEncrypt">
+            <summary>
+            文件加解密帮助类
+            </summary>
+        </member>
+        <member name="M:PS.Utility.Utils.FileDEncrypt.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:PS.Utility.Utils.FileDEncrypt.EncryptFile(System.String,System.String,System.String)">
+            <summary>
+            加密文件
+            </summary>
+            <param name="filePath">输入文件路径</param>
+            <param name="savePath">加密后输出文件路径</param>
+            <param name="keyStr">密码，可以为“”</param>
+            <returns></returns>  
+        </member>
+        <member name="M:PS.Utility.Utils.FileDEncrypt.DecryptFile(System.String,System.String,System.String)">
+            <summary>
+            解密文件
+            </summary>
+            <param name="filePath">输入文件路径</param>
+            <param name="savePath">解密后输出文件路径</param>
+            <param name="keyStr">密码，可以为“”</param>
+            <returns></returns>    
+        </member>
+        <member name="M:PS.Utility.Utils.IniFileHelper.#ctor">
+            <summary>
+            无参构造函数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.IniFileHelper.#ctor(System.String)">
+            <summary>
+            有参构造函数
+            </summary>
+            <param name="strIniFilePath">ini配置文件路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.IniFileHelper.GetIniString(System.String,System.String,System.String)">
+            <summary>
+            获取ini配置文件中的字符串
+            </summary>
+            <param name="section">节名</param>
+            <param name="key">键名</param>
+            <param name="strDefault">默认值</param>
+            <param name="retVal">结果缓冲区</param>
+            <param name="size">结果缓冲区大小</param>
+            <returns>成功true,失败false</returns>
+        </member>
+        <member name="M:PS.Utility.Utils.IniFileHelper.GetIniBool(System.String,System.String,System.Boolean)">
+            <summary>
+            读取bool型的数据
+            </summary>
+            <param name="section"></param>
+            <param name="key"></param>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.IniFileHelper.GetIniInt(System.String,System.String,System.Int32)">
+            <summary>
+            获取ini配置文件中的整型值
+            </summary>
+            <param name="section">节名</param>
+            <param name="key">键名</param>
+            <param name="nDefault">默认值</param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.IniFileHelper.WriteIniString(System.String,System.String,System.String)">
+            <summary>
+            往ini配置文件写入字符串
+            </summary>
+            <param name="section">节名</param>
+            <param name="key">键名</param>
+            <param name="val">要写入的字符串</param>
+            <returns>成功true,失败false</returns>
+        </member>
+        <member name="M:PS.Utility.Utils.IniFileHelper.WriteIniInt(System.String,System.String,System.Int32)">
+            <summary>
+            往ini配置文件写入整型数据
+            </summary>
+            <param name="section">节名</param>
+            <param name="key">键名</param>
+            <param name="val">要写入的数据</param>
+            <returns>成功true,失败false</returns>
+        </member>
+        <member name="M:PS.Utility.Utils.IniFileHelper.WriteIniBool(System.String,System.String,System.Boolean)">
+            <summary>
+            往ini配置文件写入bool型数据
+            </summary>
+            <param name="section"></param>
+            <param name="key"></param>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PS.Utility.Utils.MD5Encrypt">
+            <summary>
+            获取MD5值帮助类
+            </summary>
+        </member>
+        <member name="M:PS.Utility.Utils.MD5Encrypt.GetStrMD5(System.String)">
+            <summary>
+            得到字符串的md5值
+            </summary>
+            <param name="str">传入的字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.MD5Encrypt.GetFileMD5(System.String)">
+            <summary>
+            得到文件的md5值
+            </summary>
+            <param name="str">传入的文件路径</param>
+            <returns></returns>
+        </member>
+        <member name="T:PS.Utility.Utils.RandomHelper">
+            <summary>
+            使用Random类生成伪随机数和字符串
+            </summary>
+        </member>
+        <member name="M:PS.Utility.Utils.RandomHelper.GetRandomInt(System.Int32,System.Int32)">
+            <summary>
+            生成一个指定范围的随机整数，该随机数范围包括最小值，但不包括最大值
+            </summary>
+            <param name="minNum">最小值</param>
+            <param name="maxNum">最大值</param>
+        </member>
+        <member name="M:PS.Utility.Utils.RandomHelper.GetRandomDouble">
+            <summary>
+            生成一个0.0到1.0的随机小数
+            </summary>
+        </member>
+        <member name="M:PS.Utility.Utils.RandomHelper.GetRandomArray``1(``0[])">
+            <summary>
+            对一个数组进行随机排序
+            </summary>
+            <typeparam name="T">数组的类型</typeparam>
+            <param name="arr">需要随机排序的数组</param>
+        </member>
+        <member name="M:PS.Utility.Utils.RandomHelper.GetRandomCode(System.String,System.Int32)">
+            <summary>
+            从字符串里随机得到，规定个数的字符串.
+            </summary>
+            <param name="allChar"></param>
+            <param name="CodeCount"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.RandomHelper.GenerateCheckCodeNum(System.Int32)">
+            <summary>
+            随机生成不重复数字字符串
+            </summary>
+            <param name="codeCount"></param>
+            <returns></returns>  
+        </member>
+        <member name="M:PS.Utility.Utils.RandomHelper.GenerateCheckCode(System.Int32)">
+            <summary>
+            随机生成不重复字符串（数字和字母混和）
+            </summary>
+            <param name="codeCount"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.RandomHelper.GetRandomString(System.Int32)">
+            <summary>
+            产生随机字符串（数字和字母混和）
+            </summary>
+            <returns>字符串</returns>
+        </member>
+        <!-- 对于成员“T:PS.Utility.Utils.StringHelper”忽略有格式错误的 XML 注释 -->
+        <member name="M:PS.Utility.Utils.StringHelper.GetStrArray(System.String,System.Char,System.Boolean)">
+            <summary>
+            把字符串按照分隔符转换成 List
+            </summary>
+            <param name="str">源字符串</param>
+            <param name="speater">分隔符</param>
+            <param name="toLower">是否转换为小写</param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.StringHelper.GetStrArray(System.String)">
+            <summary>
+            把字符串转 按照, 分割 换为数据
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <!-- 对于成员“M:PS.Utility.Utils.StringHelper.GetArrayStr(System.Collections.Generic.List{System.String},System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:PS.Utility.Utils.StringHelper.GetArrayStr(System.Collections.Generic.List{System.Int32})">
+            <summary>
+            得到数组列表以逗号分隔的字符串
+            </summary>
+            <param name="list"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.StringHelper.GetArrayValueStr(System.Collections.Generic.Dictionary{System.Int32,System.Int32})">
+            <summary>
+            得到数组列表以逗号分隔的字符串
+            </summary>
+            <param name="list"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.StringHelper.DelLastComma(System.String)">
+            <summary>
+            删除最后结尾的一个逗号
+            </summary>
+        </member>
+        <member name="M:PS.Utility.Utils.StringHelper.DelLastChar(System.String,System.String)">
+            <summary>
+            删除最后结尾的指定字符后的字符
+            </summary>
+        </member>
+        <member name="M:PS.Utility.Utils.StringHelper.ToSBC(System.String)">
+            <summary>
+            转全角的函数(SBC case)
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.StringHelper.ToDBC(System.String)">
+            <summary>
+             转半角的函数(SBC case)
+            </summary>
+            <param name="input">输入</param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.StringHelper.GetSubStringList(System.String,System.Char)">
+            <summary>
+            把字符串按照指定分隔符装成 List 去除重复
+            </summary>
+            <param name="o_str"></param>
+            <param name="sepeater"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.StringHelper.GetCleanStyle(System.String,System.String)">
+            <summary>
+             将字符串样式转换为纯字符串
+            </summary>
+            <param name="StrList"></param>
+            <param name="SplitString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.StringHelper.GetNewStyle(System.String,System.String,System.String,System.String@)">
+            <summary>
+            将字符串转换为新样式
+            </summary>
+            <param name="StrList"></param>
+            <param name="NewStyle"></param>
+            <param name="SplitString"></param>
+            <param name="Error"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.StringHelper.SplitMulti(System.String,System.String)">
+            <summary>
+            分割字符串
+            </summary>
+            <param name="str"></param>
+            <param name="splitstr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.StringHelper.StrToId(System.String)">
+            <summary>
+            获取正确的Id，如果不是正整数，返回0
+            </summary>
+            <param name="_value"></param>
+            <returns>返回正确的整数ID，失败返回0</returns>
+        </member>
+        <member name="M:PS.Utility.Utils.StringHelper.IsNumberId(System.String)">
+            <summary>
+            检查一个字符串是否是纯数字构成的，一般用于查询字符串参数的有效性验证。(0除外)
+            </summary>
+            <param name="_value">需验证的字符串。。</param>
+            <returns>是否合法的bool值。</returns>
+        </member>
+        <member name="M:PS.Utility.Utils.StringHelper.QuickValidate(System.String,System.String)">
+            <summary>
+            快速验证一个字符串是否符合指定的正则表达式。
+            </summary>
+            <param name="_express">正则表达式的内容。</param>
+            <param name="_value">需验证的字符串。</param>
+            <returns>是否合法的bool值。</returns>
+        </member>
+        <member name="M:PS.Utility.Utils.StringHelper.StrLength(System.String)">
+            <summary>
+            得到字符串长度，一个汉字长度为2
+            </summary>
+            <param name="inputString">参数字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.StringHelper.ClipString(System.String,System.Int32)">
+            <summary>
+            截取指定长度字符串
+            </summary>
+            <param name="inputString">要处理的字符串</param>
+            <param name="len">指定长度</param>
+            <returns>返回处理后的字符串</returns>
+        </member>
+        <member name="M:PS.Utility.Utils.StringHelper.HtmlToTxt(System.String)">
+            <summary>
+            HTML转行成TEXT
+            </summary>
+            <param name="strHtml"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.StringHelper.IsNullOrEmpty``1(``0)">
+            <summary>
+            判断对象是否为空，为空返回true
+            </summary>
+            <typeparam name="T">要验证的对象的类型</typeparam>
+            <param name="data">要验证的对象</param>        
+        </member>
+        <member name="M:PS.Utility.Utils.StringHelper.IsNullOrEmpty(System.Object)">
+            <summary>
+            判断对象是否为空，为空返回true
+            </summary>
+            <param name="data">要验证的对象</param>
+        </member>
+        <member name="T:PS.Utility.Utils.TimeHelper">
+            <summary>
+            时间帮助类
+            </summary>
+        </member>
+        <member name="M:PS.Utility.Utils.TimeHelper.SecondToMinute(System.Int32)">
+            <summary>
+            把秒转换成分钟
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.TimeHelper.DateDiff2(System.DateTime,System.DateTime)">
+            <summary>
+            获得两个日期的间隔
+            </summary>
+            <param name="DateTime1">日期一。</param>
+            <param name="DateTime2">日期二。</param>
+            <returns>日期间隔TimeSpan。</returns>
+        </member>
+        <member name="M:PS.Utility.Utils.TimeHelper.FormatDate(System.DateTime,System.String)">
+            <summary>
+            格式化日期时间
+            </summary>
+            <param name="dateTime1">日期时间</param>
+            <param name="dateMode">显示模式</param>
+            <returns>0-9种模式的日期</returns>
+        </member>
+        <member name="M:PS.Utility.Utils.TimeHelper.GetFormatDate(System.DateTime,System.Char)">
+            <summary>
+            将时间格式化成 年月日 的形式,如果时间为null，返回当前系统时间
+            </summary>
+            <param name="dt">年月日分隔符</param>
+            <param name="Separator"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.TimeHelper.GetFormatTime(System.DateTime,System.Char)">
+            <summary>
+            将时间格式化成 时分秒 的形式,如果时间为null，返回当前系统时间
+            </summary>
+            <param name="dt"></param>
+            <param name="Separator"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.TimeHelper.GetRandomTime(System.DateTime,System.DateTime)">
+            <summary>
+            得到随机日期
+            </summary>
+            <param name="time1">起始日期</param>
+            <param name="time2">结束日期</param>
+            <returns>间隔日期之间的 随机日期</returns>
+        </member>
+        <member name="M:PS.Utility.Utils.TimeHelper.GetMonthLastDate(System.Int32,System.Int32)">
+            <summary>
+            返回某年某月最后一天
+            </summary>
+            <param name="year">年份</param>
+            <param name="month">月份</param>
+            <returns>日</returns>
+        </member>
+        <member name="M:PS.Utility.Utils.TimeHelper.ReturnDateFormat(System.Int32,System.String@,System.String@)">
+            <summary>
+            返回每月的第一天和最后一天
+            </summary>
+            <param name="month"></param>
+            <param name="firstDay"></param>
+            <param name="lastDay"></param>
+        </member>
+        <member name="M:PS.Utility.Utils.XmlLoader.GetXmlDocByXmlContent(System.String)">
+            <summary>
+            根据XML文件内容获取XmlDocument对象
+            </summary>
+            <param name="xmlFileContent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.XmlLoader.GetXmlDocByFilePath(System.String)">
+            <summary>
+            根据XML文件路径获取XmlDocument对象
+            </summary>
+            <param name="xmlFilePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.XmlLoader.GetFirstChildNodeByName(System.Xml.XmlNode,System.String)">
+            <summary>
+            获取父节点下指定节点名称的第一个子节点
+            </summary>
+            <param name="parentXmlNode"></param>
+            <param name="childNodeName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.XmlLoader.GetChildNodesByName(System.Xml.XmlNode,System.String)">
+            <summary>
+            获取父节点下指定节点名称的子节点列表
+            </summary>
+            <param name="parentXmlNode">父节点</param>
+            <param name="nodeName">节点名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.XmlLoader.GetChildNodesByXPathExpr(System.Xml.XmlNode,System.String)">
+            <summary>
+            获取父节点下满足xpathExpr表达式的XML子节点列表
+            </summary>
+            <param name="parentXmlNode">父节点</param>
+            <param name="xpathExpr"></param>
+            <returns></returns>   
+        </member>
+        <member name="M:PS.Utility.Utils.XmlLoader.GetFirstChildNode(System.Xml.XmlNode)">
+            <summary>
+            获取父节点下的第一个子节点
+            </summary>
+            <param name="parentXmlNode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.XmlLoader.GetChildNodes(System.Xml.XmlNode)">
+            <summary>
+            获取父节点的子节点列表
+            </summary>
+            <param name="parentXmlNode">父节点</param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.XmlLoader.ReadAttrValue(System.Xml.XmlNode,System.String)">
+            <summary>
+            读取某个XML节点的属性值（根据属性名）
+            </summary>
+            <param name="xmlNode"></param>
+            <param name="attrName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.XmlLoader.ReadFirstAttrValue(System.Xml.XmlNode,System.String,System.String)">
+            <summary>
+            读取父节点下指定节点名和属性名的第一个子节点的属性值
+            </summary>
+            <param name="parentXmlNode">XML父节点</param>
+            <param name="childNodeName">节点名称</param>
+            <param name="attrName">属性名</param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.XmlLoader.ReadAttrValues(System.Xml.XmlNode,System.String,System.String)">
+            <summary>
+            读取父节点下指定节点名和属性名的所有子节点的该属性值的数组
+            </summary>
+            <param name="parentXmlNode">XML文档</param>
+            <param name="childNodeName">节点名称</param>
+            <param name="attrName">属性名</param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.XmlLoader.ReadFirstChildNodeTextByName(System.Xml.XmlNode,System.String)">
+            <summary>
+            读取父节点下指定节点名的第一个子节点的文本
+            </summary>
+            <param name="parentXmlNode"></param>
+            <param name="childNodeName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.XmlLoader.ReadChildNodeTextsByName(System.Xml.XmlNode,System.String)">
+            <summary>
+            读取父节点下指定节点名的所有子节点的文本数组
+            </summary>
+            <param name="parentXmlNode"></param>
+            <param name="childNodeName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.XmlLoader.ReadFirstChildNodeText(System.Xml.XmlNode)">
+            <summary>
+            读取父节点下的第一个子节点的文本
+            </summary>
+            <param name="parentXmlNode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.XmlLoader.ReadChildNodeTexts(System.Xml.XmlNode)">
+            <summary>
+            读取父节点下的所有子节点的文本数组
+            </summary>
+            <param name="parentXmlNode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PS.Utility.Utils.XmlLoader.ReadNodeText(System.Xml.XmlNode)">
+            <summary>
+            读取XML节点文本
+            </summary>
+            <param name="xmlNode"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

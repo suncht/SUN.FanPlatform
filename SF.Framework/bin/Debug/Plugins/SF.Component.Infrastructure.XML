@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SF.Component.Infrastructure</name>
+    </assembly>
+    <members>
+        <member name="T:SF.Component.Infrastructure.ComplexPropertyComponent.IGetSingle`1">
+            <summary>
+            用与返回一个字符串的
+            </summary>
+        </member>
+        <member name="M:SF.Component.Infrastructure.ComplexPropertyComponent.ComplexTypeBaseControl.SetSingle(System.Object)">
+            <summary>
+            设置对象值
+            </summary>
+            <param name="input">编辑对象</param>
+        </member>
+        <member name="M:SF.Component.Infrastructure.ComplexPropertyComponent.ComplexTypeBaseControl.GetSingle">
+            <summary>
+            获取对象值，在关闭对话框后调用
+            </summary>
+            <returns>在</returns>
+        </member>
+        <member name="F:SF.Component.Infrastructure.ComplexPropertyComponent.ComplexTypeBaseControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:SF.Component.Infrastructure.ComplexPropertyComponent.ComplexTypeBaseControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:SF.Component.Infrastructure.ComplexPropertyComponent.ComplexTypeBaseControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:SF.Component.Infrastructure.ComplexPropertyComponent.ComplexTypeBaseDialog">
+            <summary>
+            属性面板复杂类型编辑对话框，用户编辑复杂对象应继承
+            </summary>
+        </member>
+        <member name="M:SF.Component.Infrastructure.ComplexPropertyComponent.ComplexTypeBaseDialog.SetSingle(System.Object)">
+            <summary>
+            设置对象值
+            </summary>
+            <param name="input">编辑对象</param>
+        </member>
+        <member name="M:SF.Component.Infrastructure.ComplexPropertyComponent.ComplexTypeBaseDialog.GetSingle">
+            <summary>
+            获取对象值，在关闭对话框后调用
+            </summary>
+            <returns>在</returns>
+        </member>
+        <member name="F:SF.Component.Infrastructure.ComplexPropertyComponent.ComplexTypeBaseDialog.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SF.Component.Infrastructure.ComplexPropertyComponent.ComplexTypeBaseDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SF.Component.Infrastructure.ComplexPropertyComponent.ComplexTypeBaseDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SF.Component.Infrastructure.ComplexPropertyComponent.ISupportJsonSerialization">
+            <summary>
+            属性面板复杂类型支持接口，用于和json字符串互转，用户自定义复杂类型必须实现此接口
+            </summary>
+        </member>
+        <member name="M:SF.Component.Infrastructure.ComplexPropertyComponent.ISupportJsonSerialization.ParseJsonObject(System.String)">
+            <summary>
+            字符串转化为对象
+            </summary>
+            <param name="jsonObject">对象的json字符串</param>
+            <returns>对象</returns>
+        </member>
+        <member name="M:SF.Component.Infrastructure.ComplexPropertyComponent.ISupportJsonSerialization.ToJsonString">
+            <summary>
+            将当前对象转化为json字符串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SF.Component.Infrastructure.ComplexPropertyComponent.ComplexPropertyEditor">
+            <summary>
+            复杂类型调用对象
+            </summary>
+        </member>
+        <member name="T:SF.Component.Infrastructure.ComplexPropertyComponent.DropDownListConverter">
+            <summary>
+            下拉列表类型值提供器，属性面板中指来源不同时用户应基础
+            </summary>
+        </member>
+    </members>
+</doc>

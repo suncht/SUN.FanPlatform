@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TreeView>
+  <NodeStateImageList>
+    <NodeImage NodeState="0" StateImage="wrong.gif"/>
+    <NodeImage NodeState="1" StateImage="right.gif"/>
+    <NodeImage NodeState="2" StateImage="wifi.png"/>
+  </NodeStateImageList>
+  <TreeNode Name="tn000" Text="动能穿甲仿真计算" StringValue="tn001.inp" NodeState="0" StateImage="wrong.gif" NodeImage="FlexwareCustomDirEdit.png">
+    <TreeNode Name="tn001" Text="计算模型" StateImage="right.gif" NodeImage="4">
+      <ContextMenu>
+        <MenuItem Text="显示" Icon="" CallBack="panel11_GetCurrentNodeProperty"></MenuItem>
+        <MenuItem Text="设置" Icon="" CallBack="panel11_TestCall"></MenuItem>
+      </ContextMenu>
+      <TreeNode Name="tn002" Text="弹体模型" StateImage="wrong.gif" NodeImage="FlexwareExpressionBox.png">
+        <ContextMenu>
+          <MenuItem Text="显示" Icon="" CallBack="panel11_TestGetAndSetNodeState"></MenuItem>
+        </ContextMenu>
+      </TreeNode>
+      <TreeNode Name="tn003" Text="靶版模型" StateImage="right.gif" NodeImage="FlexwareCustomComboBox.png">
+        <ContextMenu>
+          <MenuItem Text="显示" Icon="" CallBack="panel11_GetCurrentNodeProperty"></MenuItem>
+          <MenuItem Text="执行" Icon="" CallBack="panel11_TestTreeCall"></MenuItem>
+          <MenuItem Text="执行" Icon="" CallBack="panel11_TestTreeCall"></MenuItem>
+        </ContextMenu>
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Name="tn004" Text="计算设置">
+      <TreeNode Name="tn005" Text="浸侵速度">
+        <ContextMenu>
+          <MenuItem Text="执行" Icon="" CallBack="panel11_TestGlobalVariant"></MenuItem>
+        </ContextMenu>
+      </TreeNode>
+      <TreeNode Name="tn006" Text="计算参数" StateImage="right.gif" NodeImage="FlexwareCustomListbox.png">
+        <ContextMenu>
+          <MenuItem Text="执行" Icon="" CallBack=""></MenuItem>
+        </ContextMenu>
+      </TreeNode>
+      <TreeNode Name="tn007" Text="输出控制" StateImage="wrong.gif" NodeImage="FlexwareDataView.png">
+        <ContextMenu>
+          <MenuItem Text="生成" Icon="" CallBack=""></MenuItem>
+          <MenuItem Text="打开" Icon="" CallBack=""></MenuItem>
+          <MenuItem Text="求解" Icon="" CallBack=""></MenuItem>
+        </ContextMenu>
+      </TreeNode>
+      <TreeNode Name="tn008" Text="文件-求解" StateImage="" NodeImage="FlexwareExpressionBox.png">
+        <ContextMenu>
+          <MenuItem Text="执行" Icon="" CallBack=""></MenuItem>
+        </ContextMenu>
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Name="tn009" Text="计算结果" StateImage="" NodeImage="FlexwareFormatTextBlock.png">
+      <TreeNode Name="tn0010" Text="加载结果" StateImage="" NodeImage="">
+        <ContextMenu>
+          <MenuItem Text="执行" Icon="" CallBack=""></MenuItem>
+        </ContextMenu>
+      </TreeNode>
+      <TreeNode Name="tn0011" Text="应力速度" StateImage="" NodeImage="">
+        <ContextMenu>
+          <MenuItem Text="执行" Icon="" CallBack=""></MenuItem>
+        </ContextMenu>
+      </TreeNode>
+      <TreeNode Name="tn0012" Text="速度曲线" StateImage="" NodeImage="">
+        <ContextMenu>
+          <MenuItem Text="执行" Icon="" CallBack=""></MenuItem>
+        </ContextMenu>
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Name="tn0013" Text="计算报告" StateImage="" NodeImage="">
+      <ContextMenu>
+        <MenuItem Text="生成" Icon="" CallBack=""></MenuItem>
+      </ContextMenu>
+    </TreeNode>
+  </TreeNode>
+</TreeView>

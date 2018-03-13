@@ -1,0 +1,10 @@
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Utility\bin\Debug\SF.Utility.XML
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Utility\bin\Debug\SF.Utility.dll
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Utility\bin\Debug\SF.Utility.pdb
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Utility\bin\Debug\log4net.dll
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Utility\bin\Debug\log4net.xml
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Utility\obj\Debug\SF.Utility.csproj.GenerateResource.Cache
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Utility\obj\Debug\SF.Utility.dll
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Utility\obj\Debug\SF.Utility.pdb
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Utility\obj\Debug\SF.Utility.Dialogs.FanOkAndCancelControl.resources
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Utility\obj\Debug\SF.Utility.Dialogs.FanProgressIndicator.resources

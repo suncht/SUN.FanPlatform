@@ -1,0 +1,8 @@
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Framework\bin\Debug\Plugins\SF.Component.Infrastructure.XML
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Framework\bin\Debug\Plugins\SF.Component.Infrastructure.dll
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Framework\bin\Debug\Plugins\SF.Component.Infrastructure.pdb
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Component\SF.Component.Infrastructure\obj\Debug\SF.Component.Infrastructure.csprojResolveAssemblyReference.cache
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Component\SF.Component.Infrastructure\obj\Debug\SF.Component.Infrastructure.ComplexPropertyComponent.ComplexTypeBaseDialog.resources
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Component\SF.Component.Infrastructure\obj\Debug\SF.Component.Infrastructure.csproj.GenerateResource.Cache
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Component\SF.Component.Infrastructure\obj\Debug\SF.Component.Infrastructure.dll
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Component\SF.Component.Infrastructure\obj\Debug\SF.Component.Infrastructure.pdb

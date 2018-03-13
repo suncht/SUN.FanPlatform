@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout description="DX的Ribbon+Dock风格布局">
+  <header style="ribbon" showApplicationButton="true">
+    <pages>
+      <page title="开始">
+        <pageGroup title="文件">
+          <item type="button" name="openTask" title="打开" image32="open2.png" 
+                   onClick="Form.Test01.TestPorject_Open" >
+          </item>
+          <item type="button" name="saveTask" title="保存" image-index="Save" 
+                   onClick="Form.Test01.TestPorject_Save" >
+          </item>
+          <item type="button" name="quitTask" title="退出" image-index="Close" 
+                   onClick="Form.Test01.TestPorject_Exit" >
+          </item>
+        </pageGroup>
+      </page>
+      <page title="设置">
+        <pageGroup title="皮肤设置" >
+          <item type="skin" name="fff" title="新增任务" enabled="false"></item>
+        </pageGroup>
+      </page>
+      <page title="帮助">
+        <pageGroup title="帮助">
+          <item type="button" title="打开" image-index="Add"></item>
+          
+        </pageGroup>
+        
+      </page>
+    </pages>
+  </header>
+  <body style="dock">
+    <panel guid="54e0c648-e041-4f02-b196-b2c1828b561b" title="消息" name="panel4" position="bottom" height="100"
+      assembly="Form.Test01.MessageBoardControl01,Form.Test01">
+    </panel>
+    <panel guid="ce335983-47f3-5912-a96a-3dabfc139bcb" title="面板1" name="panel1" position="left" width="350">
+      <subPanel guid="66ffe710-850e-5086-a199-89c9753dd881" title="面板11" name="panel11" position="fill" 
+        assembly="Form.Test01.UserControl01,Form.Test01">
+      </subPanel>
+      <subPanel guid="fcb32fb2-b893-5190-810f-fd17c9397743" title="面板12" name="panel12" position="fill"
+        assembly="Form.Test01.UserControl02,Form.Test01">
+      </subPanel>
+    </panel>
+    <panel guid="ef725047-5763-5ef5-888d-fee33da1450b" title="面板3" name="panel3" position="bottom" tabView="true"
+      assembly="Form.Test01.TreeList01,Form.Test01">
+    </panel>
+    <!--<panel guid="98580e43-d3f5-5762-b41a-4cb985427591" title="测试面板" name="panel5" position="right" width="300"
+         assembly="FanForm.Test01.UserControl01,FanForm.Test01">
+    </panel>
+    <documentContainer title="主面板1" name="document1">
+      <tabView title="页签1" name="tab1" index ="0"></tabView>
+
+    </documentContainer>
+    -->
+  </body>
+</layout>

@@ -1,0 +1,7 @@
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\Integrate.Demo\StartupDemo\bin\Debug\Plugins\Demo01.dll
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\Integrate.Demo\StartupDemo\bin\Debug\Plugins\Demo01.pdb
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\Integrate.Demo\Demo01\obj\Debug\Demo01.csprojResolveAssemblyReference.cache
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\Integrate.Demo\Demo01\obj\Debug\Demo01.csproj.GenerateResource.Cache
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\Integrate.Demo\Demo01\obj\Debug\Demo01.dll
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\Integrate.Demo\Demo01\obj\Debug\Demo01.pdb
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\Integrate.Demo\Demo01\obj\Debug\Demo01.Demo01.resources

@@ -1,0 +1,354 @@
+2018-02-05 13:48:46,685 [10] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 14:03:46,578 [9] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 14:05:29,563 [10] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 14:06:57,061 [11] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 14:07:24,854 [11] ERROR SF.Framework.Program [第110行] - ****************************异常文本****************************
+【出现时间】：2018/2/5 14:07:22
+【异常类型】：NullReferenceException
+【异常信息】：未将对象引用设置到对象的实例。
+【堆栈调用】：   在 Form.Test01.UserControl02.addButton_Click(Object sender, EventArgs e) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\Form.Test01\UserControl02.cs:行号 38
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   在 DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+
+2018-02-05 14:08:46,365 [9] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 14:18:58,536 [9] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 14:19:07,886 [9] INFO  SF.Framework.Program [第70行] - BeforeApplicationEnd
+2018-02-05 14:26:35,686 [9] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 14:27:03,442 [9] ERROR SF.Framework.Program [第110行] - ****************************异常文本****************************
+【出现时间】：2018/2/5 14:27:01
+【异常类型】：NullReferenceException
+【异常信息】：未将对象引用设置到对象的实例。
+【堆栈调用】：   在 Form.Test01.UserControl02.addButton_Click(Object sender, EventArgs e) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\Form.Test01\UserControl02.cs:行号 36
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   在 DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+
+2018-02-05 14:27:19,774 [9] ERROR SF.Framework.Program [第110行] - ****************************异常文本****************************
+【出现时间】：2018/2/5 14:27:17
+【异常类型】：NullReferenceException
+【异常信息】：未将对象引用设置到对象的实例。
+【堆栈调用】：   在 Form.Test01.UserControl02.addButton_Click(Object sender, EventArgs e) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\Form.Test01\UserControl02.cs:行号 36
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   在 DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+
+2018-02-05 14:36:40,558 [10] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 14:37:10,549 [10] INFO  SF.Framework.Program [第70行] - BeforeApplicationEnd
+2018-02-05 14:48:32,441 [10] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 14:48:48,175 [10] INFO  SF.Framework.Program [第70行] - BeforeApplicationEnd
+2018-02-05 14:49:03,190 [10] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 14:49:17,562 [10] ERROR SF.Framework.Program [第110行] - ****************************异常文本****************************
+【出现时间】：2018/2/5 14:49:07
+【异常类型】：ApplicationException
+【异常信息】：找不到属性[Form.Test01.UserControl01_SelectedItemText1]，无法获取该属性值
+【堆栈调用】：   在 SF.Infrastructure.PropertyAccess.PropertyAccessService.GetValue(String key) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\PropertyAccess\PropertyAccessService.cs:行号 31
+   在 Form.Test01.UserControl02.addButton_Click(Object sender, EventArgs e) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\Form.Test01\UserControl02.cs:行号 37
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   在 DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+
+2018-02-05 14:49:20,151 [10] INFO  SF.Framework.Program [第70行] - BeforeApplicationEnd
+2018-02-05 16:28:10,872 [10] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 16:28:18,730 [10] WARN  SF.Infrastructure.InvokeMethod.InvokeMethodAssembly [第155行] - 未找到名为[Form.Test01.UserControl01_CallMethod01]的方法
+2018-02-05 16:28:18,747 [10] WARN  SF.Infrastructure.InvokeMethod.InvokeMethodAssembly [第155行] - 未找到名为[Form.Test01.UserControl01_CallMethod01]的方法
+2018-02-05 16:28:33,469 [10] ERROR SF.Framework.Program [第110行] - ****************************异常文本****************************
+【出现时间】：2018/2/5 16:28:31
+【异常类型】：ApplicationException
+【异常信息】：找不到属性【Form.Test01.UserControl01_SelectedItemText1】，无法获取该属性值
+【堆栈调用】：   在 SF.Infrastructure.PropertyAccess.PropertyAccessService.GetValue(String key) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\PropertyAccess\PropertyAccessService.cs:行号 31
+   在 SF.Infrastructure.PropertyAccess.PropertyAccessService.GetValue(String typeName, String key) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\PropertyAccess\PropertyAccessService.cs:行号 37
+   在 Form.Test01.UserControl02.addButton_Click(Object sender, EventArgs e) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\Form.Test01\UserControl02.cs:行号 37
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   在 DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+
+2018-02-05 16:28:34,107 [10] WARN  SF.Infrastructure.InvokeMethod.InvokeMethodAssembly [第155行] - 未找到名为[Form.Test01.UserControl01_CallMethod01]的方法
+2018-02-05 16:31:33,987 [10] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 16:36:24,170 [9] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 16:38:32,588 [9] WARN  SF.Infrastructure.InvokeMethod.InvokeMethodAssembly [第155行] - 未找到名为[Form.Test01.UserControl01_CallMethod01]的方法
+2018-02-05 16:38:35,978 [9] INFO  SF.Framework.Program [第70行] - BeforeApplicationEnd
+2018-02-05 16:40:12,990 [10] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 16:40:25,267 [10] ERROR SF.Utility.Utils.AssemblyHelper [第79行] - 程序集Form.Test01, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null不是dll或者exe文件
+2018-02-05 16:41:11,295 [10] ERROR SF.Framework.Program [第110行] - ****************************异常文本****************************
+【出现时间】：2018/2/5 16:41:07
+【异常类型】：NullReferenceException
+【异常信息】：未将对象引用设置到对象的实例。
+【堆栈调用】：   在 SF.Infrastructure.InvokeMethod.InvokeMethodService.callNormalMethod(InvokeMethodAssembly s, Object[] o) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\InvokeMethod\InvokeMethodService.cs:行号 176
+   在 SF.Infrastructure.InvokeMethod.InvokeMethodService.Invoke(String name, Object[] o) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\InvokeMethod\InvokeMethodService.cs:行号 150
+   在 Form.Test01.UserControl02.testButton2_Click(Object sender, EventArgs e) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\Form.Test01\UserControl02.cs:行号 43
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   在 DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+
+2018-02-05 16:41:43,417 [10] ERROR SF.Utility.Utils.AssemblyHelper [第79行] - 程序集Form.Test01, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null不是dll或者exe文件
+2018-02-05 16:41:49,471 [10] ERROR SF.Framework.Program [第110行] - ****************************异常文本****************************
+【出现时间】：2018/2/5 16:41:47
+【异常类型】：NullReferenceException
+【异常信息】：未将对象引用设置到对象的实例。
+【堆栈调用】：   在 SF.Infrastructure.InvokeMethod.InvokeMethodService.callNormalMethod(InvokeMethodAssembly s, Object[] o) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\InvokeMethod\InvokeMethodService.cs:行号 176
+   在 SF.Infrastructure.InvokeMethod.InvokeMethodService.Invoke(String name, Object[] o) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\InvokeMethod\InvokeMethodService.cs:行号 150
+   在 Form.Test01.UserControl02.testButton2_Click(Object sender, EventArgs e) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\Form.Test01\UserControl02.cs:行号 43
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   在 DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+
+2018-02-05 16:41:51,725 [10] INFO  SF.Framework.Program [第70行] - BeforeApplicationEnd
+2018-02-05 16:46:09,827 [9] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 16:46:20,853 [9] ERROR SF.Infrastructure.ControlAddress.ControlAddressService [第150行] - Form.Test01.UserControl01控件不存在
+2018-02-05 16:47:00,819 [9] ERROR SF.Framework.Program [第110行] - ****************************异常文本****************************
+【出现时间】：2018/2/5 16:46:58
+【异常类型】：NullReferenceException
+【异常信息】：未将对象引用设置到对象的实例。
+【堆栈调用】：   在 SF.Infrastructure.InvokeMethod.InvokeMethodService.callControlMethod(InvokeMethodAssembly s, Object[] o) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\InvokeMethod\InvokeMethodService.cs:行号 199
+   在 SF.Infrastructure.InvokeMethod.InvokeMethodService.Invoke(String name, Object[] o) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\InvokeMethod\InvokeMethodService.cs:行号 153
+   在 Form.Test01.UserControl02.testButton2_Click(Object sender, EventArgs e) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\Form.Test01\UserControl02.cs:行号 43
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   在 DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+
+2018-02-05 16:47:23,398 [9] ERROR SF.Infrastructure.ControlAddress.ControlAddressService [第150行] - Form.Test01.UserControl01控件不存在
+2018-02-05 16:47:50,164 [9] ERROR SF.Framework.Program [第110行] - ****************************异常文本****************************
+【出现时间】：2018/2/5 16:47:46
+【异常类型】：NullReferenceException
+【异常信息】：未将对象引用设置到对象的实例。
+【堆栈调用】：   在 SF.Infrastructure.InvokeMethod.InvokeMethodService.callControlMethod(InvokeMethodAssembly s, Object[] o) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\InvokeMethod\InvokeMethodService.cs:行号 199
+   在 SF.Infrastructure.InvokeMethod.InvokeMethodService.Invoke(String name, Object[] o) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\InvokeMethod\InvokeMethodService.cs:行号 153
+   在 Form.Test01.UserControl02.testButton2_Click(Object sender, EventArgs e) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\Form.Test01\UserControl02.cs:行号 43
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   在 DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+
+2018-02-05 16:47:52,382 [9] INFO  SF.Framework.Program [第70行] - BeforeApplicationEnd
+2018-02-05 16:51:31,746 [8] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 16:51:35,291 [8] INFO  SF.Framework.Program [第70行] - BeforeApplicationEnd
+2018-02-05 16:51:51,116 [10] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 16:51:56,646 [10] WARN  SF.Infrastructure.InvokeMethod.InvokeMethodAssembly [第164行] - 未找到名为[Form.Test01.UserControl01_CallMethod01]的方法
+2018-02-05 17:00:52,165 [8] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 17:00:59,398 [8] WARN  SF.Infrastructure.InvokeMethod.InvokeMethodAssembly [第164行] - 未找到名为[Form.Test01.UserControl01_CallMethod01]的方法
+2018-02-05 17:01:45,470 [8] WARN  SF.Infrastructure.InvokeMethod.InvokeMethodAssembly [第164行] - 未找到名为[Form.Test01.UserControl01_CallMethod01]的方法
+2018-02-05 17:03:10,117 [8] WARN  SF.Infrastructure.InvokeMethod.InvokeMethodAssembly [第164行] - 未找到名为[Form.Test01.UserControl01_CallMethod01]的方法
+2018-02-05 17:03:13,881 [8] INFO  SF.Framework.Program [第70行] - BeforeApplicationEnd
+2018-02-05 17:03:32,050 [9] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 17:06:06,565 [9] WARN  SF.Infrastructure.InvokeMethod.InvokeMethodAssembly [第164行] - 未找到名为[Form.Test01.UserControl01_CallMethod01]的方法
+2018-02-05 17:23:38,280 [10] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 17:23:42,539 [10] INFO  SF.Framework.Program [第70行] - BeforeApplicationEnd
+2018-02-05 17:31:21,268 [9] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 17:31:26,966 [9] WARN  SF.Infrastructure.InvokeMethod.InvokeMethodAssembly [第164行] - 未找到名为[Form.Test01.UserControl01_CallMethod01]的方法
+2018-02-05 17:32:09,319 [9] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 17:32:26,108 [9] WARN  SF.Infrastructure.InvokeMethod.InvokeMethodAssembly [第164行] - 未找到名为[panel11_UserControl_CallMethod01]的方法
+2018-02-05 17:33:41,881 [9] WARN  SF.Infrastructure.InvokeMethod.InvokeMethodAssembly [第164行] - 未找到名为[panel11_UserControl_CallMethod01]的方法
+2018-02-05 17:33:45,458 [9] INFO  SF.Framework.Program [第70行] - BeforeApplicationEnd
+2018-02-05 17:38:01,077 [9] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 17:38:47,093 [9] ERROR SF.Framework.Program [第110行] - ****************************异常文本****************************
+【出现时间】：2018/2/5 17:38:44
+【异常类型】：KeyNotFoundException
+【异常信息】：给定关键字不在字典中。
+【堆栈调用】：   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 SF.Infrastructure.ControlAddress.ControlAddressService.GetTypeNameByName(String panelName) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\ControlAddress\ControlAddressService.cs:行号 168
+   在 SF.Infrastructure.InvokeMethod.InvokeMethodService.Invoke(String name, Object[] o) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\InvokeMethod\InvokeMethodService.cs:行号 159
+   在 SF.Infrastructure.InvokeMethod.InvokeMethodService.Invoke(String typeName, String methodName, Object[] param) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\InvokeMethod\InvokeMethodService.cs:行号 194
+   在 Form.Test01.UserControl02.testButton2_Click(Object sender, EventArgs e) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\Form.Test01\UserControl02.cs:行号 43
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   在 DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+
+2018-02-05 17:43:54,707 [9] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 17:44:47,077 [9] ERROR SF.Framework.Program [第110行] - ****************************异常文本****************************
+【出现时间】：2018/2/5 17:44:44
+【异常类型】：ApplicationException
+【异常信息】：找不到调用方法【Form.Test01.UserControl01_CallMethod01】，方法调用失败
+【堆栈调用】：   在 SF.Infrastructure.InvokeMethod.InvokeMethodService.Invoke(String typeName, String methodName, Object[] param) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\InvokeMethod\InvokeMethodService.cs:行号 189
+   在 Form.Test01.UserControl02.testButton2_Click(Object sender, EventArgs e) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\Form.Test01\UserControl02.cs:行号 43
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   在 DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+
+2018-02-05 17:47:18,337 [9] ERROR SF.Framework.Program [第110行] - ****************************异常文本****************************
+【出现时间】：2018/2/5 17:47:16
+【异常类型】：ApplicationException
+【异常信息】：找不到调用方法【Form.Test01.UserControl01_CallMethod01】，方法调用失败
+【堆栈调用】：   在 SF.Infrastructure.InvokeMethod.InvokeMethodService.Invoke(String typeName, String methodName, Object[] param) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\InvokeMethod\InvokeMethodService.cs:行号 189
+   在 Form.Test01.UserControl02.testButton2_Click(Object sender, EventArgs e) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\Form.Test01\UserControl02.cs:行号 43
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   在 DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+
+2018-02-05 17:52:30,995 [9] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 17:54:12,067 [9] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 17:54:17,195 [9] ERROR SF.Infrastructure.ControlAddress.ControlAddressService [第162行] - Form.Test01.UserControl01_UserControl控件不存在
+2018-02-05 17:56:26,318 [8] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 17:56:32,697 [8] ERROR SF.Infrastructure.ControlAddress.ControlAddressService [第162行] - Form.Test01.UserControl01_UserControl控件不存在
+2018-02-05 17:57:01,576 [10] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 17:57:52,539 [10] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 17:58:28,549 [10] ERROR SF.Infrastructure.ControlAddress.ControlAddressService [第162行] - Form.Test01.UserControl01控件不存在
+2018-02-05 18:01:28,147 [9] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 18:01:38,117 [9] ERROR SF.Infrastructure.ControlAddress.ControlAddressService [第162行] - panel11_UserControl控件不存在
+2018-02-05 18:01:51,292 [9] ERROR SF.Framework.Program [第110行] - ****************************异常文本****************************
+【出现时间】：2018/2/5 18:01:49
+【异常类型】：NullReferenceException
+【异常信息】：未将对象引用设置到对象的实例。
+【堆栈调用】：   在 SF.Infrastructure.InvokeMethod.InvokeMethodService.callControlMethod(InvokeMethodAssembly s, Object[] o) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\InvokeMethod\InvokeMethodService.cs:行号 244
+   在 SF.Infrastructure.InvokeMethod.InvokeMethodService.Invoke(String name, Object[] o) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\InvokeMethod\InvokeMethodService.cs:行号 158
+   在 SF.Infrastructure.InvokeMethod.InvokeMethodService.Invoke(String typeName, String methodName, Object[] param) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\InvokeMethod\InvokeMethodService.cs:行号 194
+   在 Form.Test01.UserControl02.testButton2_Click(Object sender, EventArgs e) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\Form.Test01\UserControl02.cs:行号 43
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   在 DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+
+2018-02-05 18:03:27,339 [8] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 18:05:43,206 [9] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 18:06:10,709 [10] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 18:08:43,718 [9] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 18:09:03,445 [9] ERROR SF.Framework.Program [第110行] - ****************************异常文本****************************
+【出现时间】：2018/2/5 18:09:01
+【异常类型】：KeyNotFoundException
+【异常信息】：给定关键字不在字典中。
+【堆栈调用】：   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 SF.Infrastructure.InvokeMethod.InvokeMethodService.Invoke(String name, Object[] o) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\InvokeMethod\InvokeMethodService.cs:行号 168
+   在 SF.Infrastructure.InvokeMethod.InvokeMethodService.Invoke(String typeName, String methodName, Object[] param) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\InvokeMethod\InvokeMethodService.cs:行号 199
+   在 Form.Test01.UserControl02.testButton2_Click(Object sender, EventArgs e) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\Form.Test01\UserControl02.cs:行号 43
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   在 DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+
+2018-02-05 18:10:54,082 [9] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-05 18:11:46,510 [10] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-06 10:45:03,662 [9] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-06 10:48:08,861 [9] ERROR SF.Framework.Program [第110行] - ****************************异常文本****************************
+【出现时间】：2018/2/6 10:48:06
+【异常类型】：KeyNotFoundException
+【异常信息】：给定关键字不在字典中。
+【堆栈调用】：   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 SF.Infrastructure.InvokeMethod.InvokeMethodService.Invoke(String typeName, String methodName, Object[] param) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\InvokeMethod\InvokeMethodService.cs:行号 191
+   在 Form.Test01.UserControl02.testButton2_Click(Object sender, EventArgs e) 位置 d:\开发\CSharpWorkspaces\SUN.FanPlatform\Form.Test01\UserControl02.cs:行号 43
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnClick(EventArgs e)
+   在 DevExpress.XtraEditors.BaseButton.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   在 DevExpress.XtraEditors.BaseControl.WndProc(Message& msg)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+
+2018-02-06 10:53:38,966 [9] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-06 10:53:51,384 [9] INFO  SF.Framework.Program [第70行] - BeforeApplicationEnd
+2018-02-06 10:54:33,369 [9] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-06 10:54:45,765 [9] INFO  SF.Framework.Program [第70行] - BeforeApplicationEnd
+2018-02-06 10:57:07,307 [9] INFO  SF.Framework.Program [第62行] - BeforeApplicationRun
+2018-02-06 10:57:21,595 [9] INFO  SF.Framework.Program [第70行] - BeforeApplicationEnd

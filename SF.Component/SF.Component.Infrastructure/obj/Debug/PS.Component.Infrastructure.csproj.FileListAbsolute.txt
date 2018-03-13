@@ -1,0 +1,8 @@
+D:\开发\CSharpWorkspaces\PERA.SimClientPlatform\PS.Framework\bin\Debug\Plugins\PS.Component.Infrastructure.XML
+D:\开发\CSharpWorkspaces\PERA.SimClientPlatform\PS.Framework\bin\Debug\Plugins\PS.Component.Infrastructure.dll
+D:\开发\CSharpWorkspaces\PERA.SimClientPlatform\PS.Framework\bin\Debug\Plugins\PS.Component.Infrastructure.pdb
+D:\开发\CSharpWorkspaces\PERA.SimClientPlatform\PS.Component\PS.Component.Infrastructure\obj\Debug\PS.Component.Infrastructure.csprojResolveAssemblyReference.cache
+D:\开发\CSharpWorkspaces\PERA.SimClientPlatform\PS.Component\PS.Component.Infrastructure\obj\Debug\PS.Component.Infrastructure.ComplexPropertyComponent.ComplexTypeBaseDialog.resources
+D:\开发\CSharpWorkspaces\PERA.SimClientPlatform\PS.Component\PS.Component.Infrastructure\obj\Debug\PS.Component.Infrastructure.csproj.GenerateResource.Cache
+D:\开发\CSharpWorkspaces\PERA.SimClientPlatform\PS.Component\PS.Component.Infrastructure\obj\Debug\PS.Component.Infrastructure.dll
+D:\开发\CSharpWorkspaces\PERA.SimClientPlatform\PS.Component\PS.Component.Infrastructure\obj\Debug\PS.Component.Infrastructure.pdb

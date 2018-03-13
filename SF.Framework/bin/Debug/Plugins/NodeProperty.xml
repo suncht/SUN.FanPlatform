@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<ArrayOfNodeProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <NodeProperty>
+    <Name>tn001</Name>
+    <Properties>
+      <PropertyDescriptor>
+        <Name>single</Name>
+        <DisplayName>single</DisplayName>
+        <Converter />
+        <Category>single</Category>
+        <Value>single</Value>
+        <ReadOnly>false</ReadOnly>
+        <Visible>false</Visible>
+        <Editor />
+        <PropertyType>single</PropertyType>
+        <ValidateMethod>panel11_CheckStringLength</ValidateMethod>
+      </PropertyDescriptor>
+      <PropertyDescriptor>
+        <Name>dropdown</Name>
+        <DisplayName>dropdown</DisplayName>
+        <Converter>PS.Component.ValueProvider.SingleValueProvider,PS.Component.ValueProvider.dll</Converter>
+        <Category>dropdown</Category>
+        <Value>t</Value>
+        <ReadOnly>false</ReadOnly>
+        <Visible>true</Visible>
+        <Editor />
+        <PropertyType>dropdown</PropertyType>
+        <InitValue>1,2,3,4,s,b</InitValue>
+        <ValidateMethod>panel11_CheckInteger</ValidateMethod>
+      </PropertyDescriptor>
+      <PropertyDescriptor>
+        <Name>complex</Name>
+        <DisplayName>complex</DisplayName>
+        <Converter />
+        <Category>complex</Category>
+        <Value>{"values":"sssssss"}</Value>
+        <ReadOnly>false</ReadOnly>
+        <Visible>true</Visible>
+        <Editor>PS.Component.ValueEditor.BaseValueEditor,PS.Component.ValueEditor.dll</Editor>
+        <PropertyType>complex</PropertyType>
+        <InitValue>PS.Component.ValueEditor.ComplexAsString,PS.Component.ValueEditor.dll</InitValue>
+      </PropertyDescriptor>
+    </Properties>
+  </NodeProperty>
+  <NodeProperty>
+    <Name>tn003</Name>
+    <Properties>
+      <PropertyDescriptor>
+        <Name>属性1</Name>
+        <DisplayName>属性1</DisplayName>
+        <Converter />
+        <Category>属性</Category>
+        <Value>singl3e</Value>
+        <ReadOnly>false</ReadOnly>
+        <Visible>true</Visible>
+        <Editor />
+        <PropertyType>single</PropertyType>
+      </PropertyDescriptor>
+      <PropertyDescriptor>
+        <Name>属性2</Name>
+        <DisplayName>属性2</DisplayName>
+        <Converter>PS.Component.ValueProvider.SingleValueProvider,PS.Component.ValueProvider.dll</Converter>
+        <Category>属性</Category>
+        <Value>t</Value>
+        <ReadOnly>false</ReadOnly>
+        <Visible>true</Visible>
+        <Editor />
+        <PropertyType>dropdown</PropertyType>
+        <InitValue>4,5,6,7</InitValue>
+      </PropertyDescriptor>
+      <PropertyDescriptor>
+        <Name>属性3</Name>
+        <DisplayName>属性3</DisplayName>
+        <Converter />
+        <Category>属性</Category>
+        <Value>{"values":"你好"}</Value>
+        <ReadOnly>false</ReadOnly>
+        <Visible>true</Visible>
+        <Editor>PS.Component.ValueEditor.BaseValueEditorControl,PS.Component.ValueEditor.dll</Editor>
+        <PropertyType>complex</PropertyType>
+        <InitValue>PS.Component.ValueEditor.ComplexAsString,PS.Component.ValueEditor.dll</InitValue>
+      </PropertyDescriptor>
+      <PropertyDescriptor>
+        <Name>属性4</Name>
+        <DisplayName>属性4</DisplayName>
+        <Converter />
+        <Category>属性</Category>
+        <Value>true</Value>
+        <ReadOnly>false</ReadOnly>
+        <Visible>true</Visible>
+        <Editor />
+        <PropertyType>boolean</PropertyType>
+      </PropertyDescriptor>
+    </Properties>
+  </NodeProperty>
+</ArrayOfNodeProperty>

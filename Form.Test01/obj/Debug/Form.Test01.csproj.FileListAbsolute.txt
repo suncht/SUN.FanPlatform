@@ -1,0 +1,11 @@
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Framework\bin\Debug\Plugins\log4net.xml
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Framework\bin\Debug\Plugins\Form.Test01.dll
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Framework\bin\Debug\Plugins\Form.Test01.pdb
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\Form.Test01\obj\Debug\Form.Test01.csprojResolveAssemblyReference.cache
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\Form.Test01\obj\Debug\Form.Test01.TreeList01.resources
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\Form.Test01\obj\Debug\Form.Test01.UserControl01.resources
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\Form.Test01\obj\Debug\Form.Test01.csproj.GenerateResource.Cache
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\Form.Test01\obj\Debug\Form.Test01.dll.licenses
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\Form.Test01\obj\Debug\Form.Test01.dll
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\Form.Test01\obj\Debug\Form.Test01.pdb
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\Form.Test01\obj\Debug\Form.Test01.UserControl02.resources

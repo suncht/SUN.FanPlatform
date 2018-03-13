@@ -1,0 +1,17 @@
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\bin\Debug\log4net.xml
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\bin\Debug\SF.Infrastructure.XML
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\bin\Debug\SF.Infrastructure.dll
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\bin\Debug\SF.Infrastructure.pdb
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\bin\Debug\log4net.dll
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\bin\Debug\SF.Utility.dll
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\bin\Debug\SF.Utility.pdb
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\bin\Debug\SF.Utility.xml
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\bin\Debug\Microsoft.Practices.Unity.xml
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\obj\Debug\SF.Infrastructure.csprojResolveAssemblyReference.cache
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\obj\Debug\SF.Infrastructure.dll
+D:\开发\CSharpWorkspaces\SUN.FanPlatform\SF.Infrastructure\obj\Debug\SF.Infrastructure.pdb

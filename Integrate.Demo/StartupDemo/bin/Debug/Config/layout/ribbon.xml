@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layout description="DX的Ribbon+Dock风格布局">
+  <header style="ribbon" showApplicationButton="true">
+    <pages>
+      <page title="开始">
+        <pageGroup title="文件">
+          <item type="button" name="addTask" title="新建" image32="accounting.png"
+                 onClick="panel11_TestCall">
+          </item>
+          <item type="button" name="openTask" title="打开" image32="open2.png" 
+                   onClick="PeraForm.Test01.TestPorject_Open" >
+          </item>
+          <item type="button" name="saveTask" title="保存" image-index="Save" 
+                   onClick="PeraForm.Test01.TestPorject_Save" >
+          </item>
+          <item type="button" name="quitTask" title="退出" image-index="Close" 
+                   onClick="PeraForm.Test01.TestPorject_Exit" >
+          </item>
+        </pageGroup>
+        <pageGroup title="计算">
+          <item type="button" name="aaa" title="打开K文件" image-index="Add" enabled="false"></item>
+          <item type="button" name="bbb" title="求解计算" image-index="Add" enabled="false"></item>
+        </pageGroup>
+        <pageGroup title="后处理">
+          <item type="button" name="ddd" title="打开LS" image-index="Add"></item>
+          <item type="button" name="eee" title="打开结果文件夹" image-index="Add"></item>
+          <item type="button" name="www" title="抓取图片" image-index="Cut"></item>
+          <item type="button" name="PPP" title="生成结果报告" image-index="Report2"></item>
+        </pageGroup>
+        
+      </page>
+      <page title="设置">
+        <pageGroup title="基础数据库">
+          <item type="button" title="弹型库" image-index="Add"></item>
+          <item type="button" title="靶板库" image-index="Add"></item>
+          <item type="button" title="材料库" image-index="Add"></item>
+        </pageGroup>
+        <pageGroup title="授权控制">
+          <item type="button" title="获取本机序列号" image-index="Add"></item>
+          <item type="button" title="License配置" image-index="Add"></item>
+         
+        </pageGroup>
+        <pageGroup title="皮肤设置" >
+          <item type="skin" name="fff" title="新增任务" enabled="false"></item>
+        </pageGroup>
+      </page>
+      <page title="帮助">
+        <pageGroup title="帮助">
+          <item type="button" title="打开" image-index="Add"></item>
+          
+        </pageGroup>
+        
+      </page>
+    </pages>
+  </header>
+  <body style="dock">
+    <panel guid="54e0c648-e041-4f02-b196-b2c1828b561b" title="消息" name="panel4" position="bottom" height="100"
+      assembly="SF.Component.StateTip.StateTipControl,SF.Component.StateTip">
+    </panel>
+    <panel guid="ce335983-47f3-5912-a96a-3dabfc139bcb" title="面板1" name="panel1" position="left" width="350">
+      <subPanel guid="66ffe710-850e-5086-a199-89c9753dd881" title="面板11" name="panel11" position="fill" 
+        assembly="Demo01.Demo01,Demo01">
+      </subPanel>
+      <subPanel guid="fcb32fb2-b893-5190-810f-fd17c9397743" title="面板12" name="panel12" position="fill"
+        assembly="SF.Component.PropertyGridWrap.PropertyGridWrapPanel,SF.Component.PropertyGridWrap">
+      </subPanel>
+    </panel>
+    <panel guid="ef725047-5763-5ef5-888d-fee33da1450b" title="面板3" name="panel3" position="bottom" tabView="true"
+      assembly="PeraForm.Test01.TreeList01,PeraForm.Test01">
+    </panel>
+    <!--<panel guid="98580e43-d3f5-5762-b41a-4cb985427591" title="测试面板" name="panel5" position="right" width="300"
+         assembly="PeraForm.Test01.UserControl01,PeraForm.Test01">
+    </panel>
+    <documentContainer title="主面板1" name="document1">
+      <tabView title="页签1" name="tab1" index ="0"></tabView>
+
+    </documentContainer>
+    -->
+  </body>
+</layout>
